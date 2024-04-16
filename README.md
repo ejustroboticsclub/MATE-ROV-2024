@@ -98,7 +98,7 @@ The MATE ROV competition challenges teams to design and build ROVs to complete v
      - Upload your front-end scripts and GUI components to `src/gui/frontend`. This directory should contain code responsible for creating visual elements and user interfaces for the ROV's graphical interface.
      - If you're working on any back-end scripts or logic for the GUI, upload them to `src/gui/backend`. This directory should contain code responsible for handling data, communication with servers or databases, and any server-side processing required for the GUI.
    - Add your design files (UI, Styles, Colors, etc) to the `docs/design-docs` directory.
-
+   - Upload you ros packages to `src/control`.
 
 
 
