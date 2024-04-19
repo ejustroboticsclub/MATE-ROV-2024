@@ -1,4 +1,4 @@
-import rclpy 
+import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Bool
@@ -26,22 +26,26 @@ class JoyStickNode(Node):
         # Get depth value readings
         self.controller.depthUpFine()
         self.controller.depthDownFine()
-        
+
         self.twist_msg.linear.x = self.controller.getPitch() if not aim_ball_x else 0
         self.twist_msg.linear.y = self.controller.getRoll() if not aim_ball_y else 0
         self.twist_msg.linear.z = self.controller.depth
-        self.twist_msg.angular.z = self.controller.getYaw() if not aim_ball_x and not aim_ball_y else 0
+        self.twist_msg.angular.z = (
+            self.controller.getYaw() if not aim_ball_x and not aim_ball_y else 0
+        )
 
         self.gripper_msg.data = bool(self.controller.getTrigger() + 1)
 
-        self.get_logger().info("Throttle: %+2.2f   Roll: %+2.2f   Pitch: %+2.2f   Yaw: %+2.2f   Aux: %+2.2f"
+        self.get_logger().info(
+            "Throttle: %+2.2f   Roll: %+2.2f   Pitch: %+2.2f   Yaw: %+2.2f   Aux: %+2.2f"
             % (
                 self.controller.depth,
                 self.controller.getRoll(),
                 self.controller.getPitch(),
                 self.controller.getYaw(),
                 bool(self.controller.getTrigger() + 1),
-            ))
+            )
+        )
 
         self.gripper_publisher.publish(self.gripper_msg)
 
@@ -49,8 +53,6 @@ class JoyStickNode(Node):
             self.twist_msg = Twist()
 
         self.joystick_publisher.publish(self.twist_msg)
-
-
 
 
 def main(args=None):
@@ -65,6 +67,6 @@ def main(args=None):
 
     rclpy.shutdown()
 
+
 if __name__ == "__main__":
     main()
-
