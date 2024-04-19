@@ -518,7 +518,7 @@ def main(args=None):
 
     motion_control_node = CalibrationNode()
     rclpy.spin(motion_control_node)
-
+    motion_control_node.destroy_node()
     rclpy.shutdown()
 
 

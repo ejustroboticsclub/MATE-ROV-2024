@@ -12,7 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'config'), glob('config/*.yaml'))
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.launch.[pxy][yma]*')))        
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,7 +24,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "movement_feedback = rov_24.movement_feedback:main"
+            "movement_feedback = rov_24.movement_feedback:main",
+            "motion_control = rov_24.motion_control:main",
+            "joystick = rov_24.joystick:main"
         ],
     },
 )
