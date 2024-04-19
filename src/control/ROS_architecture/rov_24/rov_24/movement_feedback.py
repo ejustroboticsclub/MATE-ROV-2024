@@ -391,8 +391,31 @@ class CalibrationNode(Node):
         Args:
             msg (Float64): depth sent by the the depth sensor
         """
-        self.actual.depth = depth_msg.data
+
         self.get_logger().info(f"depth: {depth_msg}")
+
+        self.actual.depth = depth_msg.data
+        error = self.desired.depth - self.actual.depth
+
+        correction_value = error * self.PARAM.kp_depth
+        correction_value = map_from_to(
+            correction_value,
+            0,
+            1,
+            self.PARAM.thruster_side_min,
+            self.PARAM.thruster_side_max,
+        )
+
+        stabilization_actuation = self.pid_stabilization.compute(
+            self.desired.roll, self.actual.roll
+        )
+
+        phi_5 = correction_value - stabilization_actuation
+        phi_6 = correction_value + stabilization_actuation
+
+        thrusters_voltages = Float32MultiArray()
+        thrusters_voltages.data = [1485, 1485, 1485, 1485, phi_5, phi_6]
+        self.thrusters_voltages_publisher.publish(thrusters_voltages)
 
     def imu_recieved_callback(self, imu: Imu):
         """recieves the imu readings from the MPU9025
@@ -473,7 +496,7 @@ class CalibrationNode(Node):
 
         depth_actuation = map_from_to(
             depth_actuation,
-            -1,
+            0,
             1,
             self.PARAM.thruster_side_min,
             self.PARAM.thruster_side_max,
