@@ -1,0 +1,7 @@
+README.md
+setup.py
+PySticks.egg-info/PKG-INFO
+PySticks.egg-info/SOURCES.txt
+PySticks.egg-info/dependency_links.txt
+PySticks.egg-info/top_level.txt
+pysticks/__init__.py
