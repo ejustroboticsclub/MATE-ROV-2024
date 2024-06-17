@@ -1,0 +1,25 @@
+[0.363s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/rov_24': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build --no-deps symlink_data
+[0.517s] running develop
+[0.526s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.526s]   warnings.warn(
+[0.627s] running egg_info
+[0.627s] writing rov_24.egg-info/PKG-INFO
+[0.628s] writing dependency_links to rov_24.egg-info/dependency_links.txt
+[0.628s] writing entry points to rov_24.egg-info/entry_points.txt
+[0.628s] writing requirements to rov_24.egg-info/requires.txt
+[0.628s] writing top-level names to rov_24.egg-info/top_level.txt
+[0.629s] reading manifest file 'rov_24.egg-info/SOURCES.txt'
+[0.629s] writing manifest file 'rov_24.egg-info/SOURCES.txt'
+[0.630s] running build_ext
+[0.630s] Creating /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov-24.egg-link (link to .)
+[0.631s] Installing auto script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] Installing gui script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.631s] 
+[0.631s] Installed /home/atef/ROV 2024/colcon_ws/build/rov_24
+[0.631s] running symlink_data
+[0.631s] symbolically linking /home/atef/ROV 2024/colcon_ws/build/rov_24/launch/automatic.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch
+[0.646s] Invoked command in '/home/atef/ROV 2024/colcon_ws/build/rov_24' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build --no-deps symlink_data

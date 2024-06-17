@@ -1,0 +1,848 @@
+[0.104s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.104s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x730024149750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x730024242320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x730024242320>>)
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.239s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atef/ROV 2024'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(GyroAcc) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/external) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/interim) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/ai/processed) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/calibration) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/data/hardware/sensor-data) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/docs) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/CAD-models) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/hardware/schematics) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/images) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/best-models) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/models/trained-models) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/3d-model) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/notebooks/autonomous-coral-head) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/3d-model) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/autonomous-coral-head) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/control) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/results/gui) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/3d-model) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/models) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/autonomous-coral-head/visualization) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/ROS_architecture) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'MATE-ROV-2024/src/control/package_example1': Error(s) in package 'MATE-ROV-2024/src/control/package_example1/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example1) by extension 'python'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'MATE-ROV-2024/src/control/package_example1' with type 'cmake' and name 'package_example1'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'MATE-ROV-2024/src/control/package_example2': Error(s) in package 'MATE-ROV-2024/src/control/package_example2/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/control/package_example2) by extension 'python'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'MATE-ROV-2024/src/control/package_example2' with type 'cmake' and name 'package_example2'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/backend) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(MATE-ROV-2024/src/gui/frontend/GUI) by extension 'python_setup_py'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'ros'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['cmake', 'python']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'python'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extensions ['python_setup_py']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws) by extension 'python_setup_py'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/build) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/devel) ignored
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'ros'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['cmake', 'python']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'cmake'
+[0.271s] WARNING:colcon.colcon_cmake.package_identification.cmake:Ignoring 'catkin_ws/src/CMakeLists.txt' since it seems to be a toplevel CMake file generated by 'catkin_make'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(catkin_ws/src/bridge) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'catkin_ws/src/bridge' with type 'ros.catkin' and name 'bridge'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/install) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/install) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/log) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/log) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/ros1_bridge) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'colcon_ws/src/ros1_bridge' with type 'ros.ament_cmake' and name 'ros1_bridge'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(colcon_ws/src/rov_24) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'colcon_ws/src/rov_24' with type 'ros.ament_python' and name 'rov_24'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'ros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(nanoooo.ino) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(rov_nano) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/atef/ROV 2024/colcon_ws/install
+[0.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/build/bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/install/bridge', 'merge_install': False, 'path': '/home/atef/ROV 2024/catkin_ws/src/bridge', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'package_example1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/build/package_example1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/install/package_example1', 'merge_install': False, 'path': '/home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'package_example2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'package_example2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/build/package_example2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/install/package_example2', 'merge_install': False, 'path': '/home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2', 'symlink_install': False, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'ros1_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/build/ros1_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/install/ros1_bridge', 'merge_install': False, 'path': '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'rov_24' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/build/rov_24', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/install/rov_24', 'merge_install': False, 'path': '/home/atef/ROV 2024/colcon_ws/src/rov_24', 'symlink_install': False, 'test_result_base': None}
+[0.338s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.339s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/atef/ROV 2024/catkin_ws/src/bridge' with build type 'catkin'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/ROV 2024/catkin_ws/src/bridge'
+[0.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge' with build type 'ament_cmake'
+[0.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/atef/ROV 2024/colcon_ws/src/rov_24' with build type 'ament_python'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_24', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/install/rov_24/share/rov_24/hook/ament_prefix_path.ps1'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/install/rov_24/share/rov_24/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/install/rov_24/share/rov_24/hook/ament_prefix_path.sh'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/bridge': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/catkin_ws/src/bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/bridge
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/package_example2': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example2
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/ros1_bridge
+[0.683s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/atef/ROV 2024/colcon_ws/src/rov_24'
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16
+[0.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/build/package_example2' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example2
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/build/package_example2': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example2 -- -j16 -l16
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/build/bridge' returned '1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/catkin_ws/src/bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/bridge
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bridge)
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge' for CMake module files
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge' for CMake config files
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge/bin'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge/lib/pkgconfig/bridge.pc'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge/lib/python3.10/site-packages'
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/install/bridge/bin'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/install/bridge/share/bridge/package.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/ROV 2024/install/bridge/share/bridge/package.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/install/bridge/share/bridge/package.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/install/bridge/share/bridge/package.bash'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/install/bridge/share/bridge/package.zsh'
+[0.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/ROV 2024/install/bridge/share/colcon-core/packages/bridge)
+[1.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.724s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.733s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/install/local_setup.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/ROV 2024/install/_local_setup_util_ps1.py'
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/install/setup.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/install/local_setup.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/ROV 2024/install/_local_setup_util_sh.py'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/install/setup.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/install/local_setup.bash'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/install/setup.bash'
+[1.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/install/local_setup.zsh'
+[1.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/install/setup.zsh'

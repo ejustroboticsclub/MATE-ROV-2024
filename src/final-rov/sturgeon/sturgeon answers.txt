@@ -1,0 +1,10 @@
+1: The receiver with the maximum sum of 5 days is Receiver 2, with the period from day 6 to day 10.
+2: The receiver with the maximum sum of 5 days is Receiver 3, with the period from day 3 to day 7.
+3: The receiver with the maximum sum of 5 days is Receiver 1, with the period from day 11 to day 15.
+4: The receiver with the maximum sum of 5 days is Receiver 3, with the period from day 9 to day 13.
+5: The receiver with the maximum sum of 5 days is Receiver 1, with the period from day 1 to day 5.
+6: The receiver with the maximum sum of 5 days is Receiver 3, with the period from day 1 to day 5.
+7: The receiver with the maximum sum of 5 days is Receiver 2, with the period from day 2 to day 6.
+8: The receiver with the maximum sum of 5 days is Receiver 1, with the period from day 2 to day 6.
+9: The receiver with the maximum sum of 5 days is Receiver 3, with the period from day 2 to day 6.
+10: The receiver with the maximum sum of 5 days is Receiver 2, with the period from day 11 to day 15.

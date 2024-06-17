@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/rov_24/rov_24.egg-info/PKG-INFO
+writing dependency_links to ../../build/rov_24/rov_24.egg-info/dependency_links.txt
+writing entry points to ../../build/rov_24/rov_24.egg-info/entry_points.txt
+writing requirements to ../../build/rov_24/rov_24.egg-info/requires.txt
+writing top-level names to ../../build/rov_24/rov_24.egg-info/top_level.txt
+reading manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+writing manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/launch_file.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch
+running install_egg_info
+removing '/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rov_24/rov_24.egg-info to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+writing list of installed files to '/home/atef/ROV 2024/colcon_ws/build/rov_24/install.log'

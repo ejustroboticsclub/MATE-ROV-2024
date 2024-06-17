@@ -1,0 +1,29 @@
+[0.378s] Invoking command in '/home/atef/ROV 2024/colcon_ws/src/rov_24': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_24 build --build-base /home/atef/ROV 2024/colcon_ws/build/rov_24/build install --record /home/atef/ROV 2024/colcon_ws/build/rov_24/install.log --single-version-externally-managed install_data
+[0.523s] running egg_info
+[0.523s] writing ../../build/rov_24/rov_24.egg-info/PKG-INFO
+[0.523s] writing dependency_links to ../../build/rov_24/rov_24.egg-info/dependency_links.txt
+[0.523s] writing entry points to ../../build/rov_24/rov_24.egg-info/entry_points.txt
+[0.523s] writing requirements to ../../build/rov_24/rov_24.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/rov_24/rov_24.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+[0.526s] writing manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.527s] copying rov_24/Automatic_control.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.527s] running install
+[0.527s] running install_lib
+[0.528s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/Automatic_control.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.528s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/Automatic_control.py to Automatic_control.cpython-310.pyc
+[0.529s] running install_data
+[0.529s] running install_egg_info
+[0.530s] removing '/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info' (and everything under it)
+[0.531s] Copying ../../build/rov_24/rov_24.egg-info to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info
+[0.531s] running install_scripts
+[0.544s] Installing auto script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] Installing gui script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.544s] writing list of installed files to '/home/atef/ROV 2024/colcon_ws/build/rov_24/install.log'
+[0.559s] Invoked command in '/home/atef/ROV 2024/colcon_ws/src/rov_24' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_24 build --build-base /home/atef/ROV 2024/colcon_ws/build/rov_24/build install --record /home/atef/ROV 2024/colcon_ws/build/rov_24/install.log --single-version-externally-managed install_data

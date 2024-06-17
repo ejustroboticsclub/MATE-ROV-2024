@@ -1,0 +1,221 @@
+#include <Arduino_LSM6DS3.h>
+#include <Servo.h>
+
+#include <cmath> // Include the math library
+#include <ros.h>
+#include <sensor_msgs/Imu.h>
+#include <std_msgs/Int32MultiArray.h>
+#include <std_msgs/Bool.h>
+
+const float pi = M_PI; // Assign the value of pi from the math library
+
+// Constants for gyroscope sensitivity
+const float gyroSensitivity = 500.0; // Gyroscope sensitivity: 500 degrees per second
+
+// Variables to store gyroscope data
+float gyroX, gyroY, gyroZ;
+
+// Variables for angle calculation
+float angleX = 0.0; // Angle around X-axis
+float angleY = 0.0; // Angle around Y-axis
+float angleZ = 0.0; // Angle around Z-axis
+
+// Calibration variables
+const int calibrationReadings = 1000;
+float gyroXOffset = 0.0;
+float gyroYOffset = 0.0;
+float gyroZOffset = 0.0;
+
+// Time variables for integrating gyroscope data
+unsigned long prevTime = 0; // Previous time stamp
+unsigned long currTime = 0; // Current time stamp
+
+ros::NodeHandle node_handle;
+
+// Initialize an 32-bit float array that hosts the imu readings in the form of [gX, gY, gZ, accX, accY, accZ]
+sensor_msgs::Imu imu_data;
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+Servo servos[6];
+void thrustersCallback(const std_msgs::Int32MultiArray& msg);
+void gripperLCallback(const std_msgs::Bool& msg);
+void gripperRCallback(const std_msgs::Bool& msg);
+ros::Subscriber<std_msgs::Int32MultiArray> thrusters_sub("/ROV/thrusters", &thrustersCallback);
+ros::Subscriber<std_msgs::Bool> gripper_r_sub("/ROV/gripper_r", &gripperRCallback);
+ros::Subscriber<std_msgs::Bool> gripper_l_sub("/ROV/gripper_l", &gripperLCallback);
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// Initialize a publisher over the /imu/data topic
+ros::Publisher publisher("/imu/data", &imu_data);
+
+void setup() {
+//  Serial.begin(9600);
+//  while (!Serial);
+
+  if (!IMU.begin()) {
+//    Serial.println("Failed to initialize IMU!");
+    while (1);
+  }
+
+//Servos
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(8, OUTPUT);
+
+  servos[0].attach(2);
+  servos[1].attach(3);
+  servos[2].attach(4);
+  servos[3].attach(5);
+  servos[4].attach(6);
+  servos[5].attach(8);  
+
+  servos[0].writeMicroseconds(1500);
+  servos[1].writeMicroseconds(1500);
+  servos[2].writeMicroseconds(1500);
+  servos[3].writeMicroseconds(1500);
+  servos[4].writeMicroseconds(1500);
+  servos[5].writeMicroseconds(1500);
+
+// Subs
+
+  node_handle.subscribe(thrusters_sub);
+  node_handle.subscribe(gripper_r_sub);
+  node_handle.subscribe(gripper_l_sub);
+// 
+//  Serial.print("Gyroscope sample rate = ");
+//  Serial.print(IMU.gyroscopeSampleRate());
+//  Serial.println(" Hz");
+//  Serial.println();
+//  Serial.println("Angle (degrees)");
+//  Serial.println("X\tY\tZ");
+
+  // Perform calibration
+  calibrate();
+
+  // Initialize previous time
+  prevTime = millis();
+
+  // Initialize ROS node and advertise the publisher
+  node_handle.initNode();
+  node_handle.advertise(publisher);
+}
+
+void loop() {
+  // Read gyroscope data
+  if (IMU.gyroscopeAvailable()) {
+    IMU.readGyroscope(gyroX, gyroY, gyroZ);
+
+    // Remove calibration offsets
+    gyroX -= gyroXOffset;
+    gyroY -= gyroYOffset;
+    gyroZ -= gyroZOffset;
+
+    // Calculate time elapsed since last loop iteration
+    currTime = millis();
+    float dt = (currTime - prevTime) / 1000.0; // Convert to seconds
+
+    // Integrate gyroscope data to calculate angle change
+    angleX += gyroX * dt / gyroSensitivity;
+    angleY += gyroY * dt / gyroSensitivity;
+    angleZ += gyroZ * dt / gyroSensitivity;
+
+    // Update previous time
+    prevTime = currTime;
+
+    // Print angles to serial monitor
+//    Serial.print("Gyro:\t");
+//    Serial.print(angleX);
+//    Serial.print('\t');
+//    Serial.print(angleY);
+//    Serial.print('\t');
+//    Serial.println(angleZ);
+
+    imu_data.angular_velocity.x = gyroX;
+    imu_data.angular_velocity.y = gyroY;
+    imu_data.angular_velocity.z = gyroZ;
+  }
+
+  // Read accelerometer data
+  if (IMU.accelerationAvailable()) {
+    float accX, accY, accZ;
+    IMU.readAcceleration(accX, accY, accZ);
+
+//    Serial.print("Accel:\t");
+//    Serial.print(accX);
+//    Serial.print('\t');
+//    Serial.print(accY);
+//    Serial.print('\t');
+//    Serial.println(accZ);
+
+    imu_data.linear_acceleration.x = accX;
+    imu_data.linear_acceleration.y = accY;
+    imu_data.linear_acceleration.z = accZ;
+  }
+
+  // Publish the imu readings to the /imu/data topic
+  publisher.publish(&imu_data);
+
+  // Call any callback functions that haven't been called
+  node_handle.spinOnce();
+}
+
+void calibrate() {
+//  Serial.println("Calibrating...");
+
+  float sumX = 0.0;
+  float sumY = 0.0;
+  float sumZ = 0.0;
+
+  for (int i = 0; i < calibrationReadings; i++) {
+    if (IMU.gyroscopeAvailable()) {
+      IMU.readGyroscope(gyroX, gyroY, gyroZ);
+      sumX += gyroX;
+      sumY += gyroY;
+      sumZ += gyroZ;
+      delay(1); // Add a small delay to avoid overwhelming the sensor
+    }
+  }
+
+  gyroXOffset = sumX / calibrationReadings;
+  gyroYOffset = sumY / calibrationReadings;
+  gyroZOffset = sumZ / calibrationReadings;
+
+//  Serial.println("Calibration complete.");
+}
+
+
+void gripperLCallback(const std_msgs::Bool& msg) {
+  // Handle gripperL message here
+  if (msg.data) {
+    // If gripperL message is true, set pin A0 high
+    digitalWrite(12, HIGH);
+  } else {
+    // If gripperL message is false, set pin A0 low
+    digitalWrite(12, LOW);
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void thrustersCallback(const std_msgs::Int32MultiArray& msg) {
+  // Handle thrusters message here
+  for (int i = 0; i < msg.data_length; i++) {
+    // Set servo position based on thruster speed
+    int vel = msg.data[i];
+    servos[i].writeMicroseconds(vel);
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void gripperRCallback(const std_msgs::Bool& msg) {
+  // Handle gripperR message here
+  if (msg.data) {
+    // If gripperR message is true, set pin 1A high
+    digitalWrite(11, HIGH);
+  } else {
+    // If gripperR message is false, set pin 1A low
+    digitalWrite(11, LOW);
+  }
+}

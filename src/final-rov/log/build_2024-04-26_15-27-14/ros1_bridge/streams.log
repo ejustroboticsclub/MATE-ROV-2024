@@ -1,0 +1,41 @@
+[0.023s] Invoking command in '/home/atef/ROV 2024/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/ros1_bridge
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.303s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.419s] -- Found rmw: 6.1.1 (/opt/ros/humble/share/rmw/cmake)
+[0.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.691s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.718s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.722s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.814s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.817s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.934s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.981s] -- Looking for pthread.h
+[1.063s] -- Looking for pthread.h - found
+[1.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.141s] -- Found Threads: TRUE  
+[1.284s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.289s] -- Checking for module 'roscpp'
+[1.291s] --   No package 'roscpp' found
+[1.292s] [33mCMake Warning at CMakeLists.txt:36 (message):
+[1.292s]   Failed to find ROS 1 roscpp, skipping...
+[1.292s] 
+[1.292s] [0m
+[1.348s] -- Configuring done
+[1.351s] -- Generating done
+[1.351s] -- Build files have been written to: /home/atef/ROV 2024/build/ros1_bridge

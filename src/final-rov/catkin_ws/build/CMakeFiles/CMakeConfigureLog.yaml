@@ -1,0 +1,687 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 6.5.0-28-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/atef/anaconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/3.26.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/atef/anaconda3/envs/ros_env/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q"
+      binary: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q
+        
+        Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd312/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd312.dir/build.make CMakeFiles/cmTC_fd312.dir/build
+        gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q'
+        Building C object CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -c /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_fd312.dir/'
+         /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/atef/anaconda3/envs/ros_env/include /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fd312.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/atef/anaconda3/envs/ros_env/include
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include
+         /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: a4b0b0a83abcf35c729ed7f506ee3ff8
+        COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_fd312
+        /home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd312.dir/link.txt --verbose=1
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/atef/anaconda3/envs/ros_env/lib -Wl,-rpath-link,/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -o cmTC_fd312 
+        Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
+        COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_fd312' '-dumpdir' 'cmTC_fd312.'
+         /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCtxzFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fd312 /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/atef/anaconda3/envs/ros_env/lib -rpath-link /home/atef/anaconda3/envs/ros_env/lib CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/atef/anaconda3/envs/ros_env/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_fd312' '-dumpdir' 'cmTC_fd312.'
+        gmake[1]: Leaving directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/atef/anaconda3/envs/ros_env/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/include] ==> [/home/atef/anaconda3/envs/ros_env/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/atef/anaconda3/envs/ros_env/include;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fd312/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd312.dir/build.make CMakeFiles/cmTC_fd312.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-twID5q']
+        ignore line: [Building C object CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -c /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_fd312.dir/']
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/atef/anaconda3/envs/ros_env/include /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fd312.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: a4b0b0a83abcf35c729ed7f506ee3ff8]
+        ignore line: [COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_fd312]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd312.dir/link.txt --verbose=1]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/atef/anaconda3/envs/ros_env/lib -Wl -rpath-link /home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -o cmTC_fd312 ]
+        ignore line: [Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
+        ignore line: [COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_fd312' '-dumpdir' 'cmTC_fd312.']
+        link line: [ /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCtxzFO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fd312 /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/atef/anaconda3/envs/ros_env/lib -rpath-link /home/atef/anaconda3/envs/ros_env/lib CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/atef/anaconda3/envs/ros_env/lib]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccCtxzFO.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_fd312] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/atef/anaconda3/envs/ros_env/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+          arg [CMakeFiles/cmTC_fd312.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/lib] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/atef/anaconda3/envs/ros_env/lib;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/atef/anaconda3/envs/ros_env/lib/gcc;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS"
+      binary: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS
+        
+        Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aecfc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aecfc.dir/build.make CMakeFiles/cmTC_aecfc.dir/build
+        gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS'
+        Building CXX object CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -c /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_aecfc.dir/'
+         /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/atef/anaconda3/envs/ros_env/include /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aecfc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/atef/anaconda3/envs/ros_env/include
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu
+         /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward
+         /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 13254ff8354c3d0f9abebc7aa7f271eb
+        COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_aecfc
+        /home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aecfc.dir/link.txt --verbose=1
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/atef/anaconda3/envs/ros_env/lib -Wl,-rpath-link,/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aecfc 
+        Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
+        COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_aecfc' '-shared-libgcc' '-dumpdir' 'cmTC_aecfc.'
+         /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKYq1Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_aecfc /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/atef/anaconda3/envs/ros_env/lib -rpath-link /home/atef/anaconda3/envs/ros_env/lib CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/atef/anaconda3/envs/ros_env/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_aecfc' '-shared-libgcc' '-dumpdir' 'cmTC_aecfc.'
+        gmake[1]: Leaving directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/atef/anaconda3/envs/ros_env/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+          add: [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/include] ==> [/home/atef/anaconda3/envs/ros_env/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+        collapse include dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/atef/anaconda3/envs/ros_env/include;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/include/c++/12.3.0/backward;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS]
+        ignore line: []
+        ignore line: [Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aecfc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aecfc.dir/build.make CMakeFiles/cmTC_aecfc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-Af7IxS']
+        ignore line: [Building CXX object CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include    -v -o CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -c /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_aecfc.dir/']
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/atef/anaconda3/envs/ros_env/include /home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_aecfc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/12.3.0/backward]
+        ignore line: [ /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 13254ff8354c3d0f9abebc7aa7f271eb]
+        ignore line: [COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-v' '-o' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_aecfc]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aecfc.dir/link.txt --verbose=1]
+        ignore line: [/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/atef/anaconda3/envs/ros_env/lib -Wl -rpath-link /home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib -v -rdynamic CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aecfc ]
+        ignore line: [Reading specs from /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1699751145211/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/12.3.0 --with-pkgversion='conda-forge gcc 12.3.0-3' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
+        ignore line: [COMPILER_PATH=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/atef/anaconda3/envs/ros_env/include' '-L/home/atef/anaconda3/envs/ros_env/lib' '-v' '-rdynamic' '-o' 'cmTC_aecfc' '-shared-libgcc' '-dumpdir' 'cmTC_aecfc.']
+        link line: [ /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKYq1Ba.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_aecfc /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/atef/anaconda3/envs/ros_env/lib -rpath-link /home/atef/anaconda3/envs/ros_env/lib CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/atef/anaconda3/envs/ros_env/lib]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/atef/anaconda3/envs/ros_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKYq1Ba.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_aecfc] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/atef/anaconda3/envs/ros_env/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+          arg [CMakeFiles/cmTC_aecfc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/atef/anaconda3/envs/ros_env/lib] ==> ignore
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/lib] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc] ==> [/home/atef/anaconda3/envs/ros_env/lib/gcc]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/atef/anaconda3/envs/ros_env/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/atef/anaconda3/envs/ros_env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/atef/anaconda3/envs/ros_env/lib;/home/atef/anaconda3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/atef/anaconda3/envs/ros_env/lib/gcc;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/lib;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib;/home/atef/anaconda3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi"
+      binary: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi
+        
+        Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cc82d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc82d.dir/build.make CMakeFiles/cmTC_cc82d.dir/build
+        gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi'
+        Building C object CMakeFiles/cmTC_cc82d.dir/src.c.o
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -o CMakeFiles/cmTC_cc82d.dir/src.c.o -c "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi/src.c"
+        Linking C executable cmTC_cc82d
+        /home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc82d.dir/link.txt --verbose=1
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/atef/anaconda3/envs/ros_env/lib -Wl,-rpath-link,/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_cc82d.dir/src.c.o -o cmTC_cc82d 
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_cc82d.dir/src.c.o: in function `main':
+        src.c:(.text.startup.main+0x24): undefined reference to `pthread_create'
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x2e): undefined reference to `pthread_detach'
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x38): undefined reference to `pthread_cancel'
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x44): undefined reference to `pthread_join'
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x50): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_cc82d.dir/build.make:99: cmTC_cc82d] Error 1
+        gmake[1]: Leaving directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-hYUeSi'
+        gmake: *** [Makefile:127: cmTC_cc82d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1"
+      binary: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1
+        
+        Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d887/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d887.dir/build.make CMakeFiles/cmTC_6d887.dir/build
+        gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1'
+        Building C object CMakeFiles/cmTC_6d887.dir/CheckFunctionExists.c.o
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6d887.dir/CheckFunctionExists.c.o -c "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1/CheckFunctionExists.c"
+        Linking C executable cmTC_6d887
+        /home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d887.dir/link.txt --verbose=1
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/atef/anaconda3/envs/ros_env/lib -Wl,-rpath-link,/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_6d887.dir/CheckFunctionExists.c.o -o cmTC_6d887  -lpthreads 
+        /home/atef/anaconda3/envs/ros_env/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_6d887.dir/build.make:99: cmTC_6d887] Error 1
+        gmake[1]: Leaving directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-R9TUH1'
+        gmake: *** [Makefile:127: cmTC_6d887/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/lib/cmake/GTest/GTestConfig.cmake:29 (find_dependency)"
+      - "/home/atef/anaconda3/envs/ros_env/share/cmake-3.26/Modules/FindGTest.cmake:194 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/test/gtest.cmake:340 (find_package)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/all.cmake:164 (include)"
+      - "/home/atef/anaconda3/envs/ros_env/share/catkin/cmake/catkinConfig.cmake:20 (include)"
+      - "CMakeLists.txt:58 (find_package)"
+    directories:
+      source: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep"
+      binary: "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep
+        
+        Run Build Command(s):/home/atef/anaconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf46b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf46b.dir/build.make CMakeFiles/cmTC_bf46b.dir/build
+        gmake[1]: Entering directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep'
+        Building C object CMakeFiles/cmTC_bf46b.dir/CheckFunctionExists.c.o
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bf46b.dir/CheckFunctionExists.c.o -c "/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep/CheckFunctionExists.c"
+        Linking C executable cmTC_bf46b
+        /home/atef/anaconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf46b.dir/link.txt --verbose=1
+        /home/atef/anaconda3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/atef/anaconda3/envs/ros_env/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/atef/anaconda3/envs/ros_env/lib -Wl,-rpath-link,/home/atef/anaconda3/envs/ros_env/lib -L/home/atef/anaconda3/envs/ros_env/lib  -rdynamic CMakeFiles/cmTC_bf46b.dir/CheckFunctionExists.c.o -o cmTC_bf46b  -lpthread 
+        gmake[1]: Leaving directory '/home/atef/ROV 2024/catkin_ws/build/CMakeFiles/CMakeScratch/TryCompile-ejz5ep'
+        
+      exitCode: 0
+...

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing rov_24.egg-info/PKG-INFO
+writing dependency_links to rov_24.egg-info/dependency_links.txt
+writing entry points to rov_24.egg-info/entry_points.txt
+writing requirements to rov_24.egg-info/requires.txt
+writing top-level names to rov_24.egg-info/top_level.txt
+reading manifest file 'rov_24.egg-info/SOURCES.txt'
+writing manifest file 'rov_24.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov-24.egg-link (link to .)
+Installing auto script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing gui script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+
+Installed /home/atef/ROV 2024/colcon_ws/build/rov_24
+running symlink_data
+symbolically linking /home/atef/ROV 2024/colcon_ws/build/rov_24/launch/automatic.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch

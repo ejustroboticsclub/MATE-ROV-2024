@@ -1,0 +1,10 @@
+<launch>
+<!-- Launch 2 Arduino boards -->
+
+    <node
+        pkg="bridge"
+        type="bridge.py"
+        name="bridge"
+    ></node>
+
+</launch>

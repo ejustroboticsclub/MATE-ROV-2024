@@ -1,0 +1,3 @@
+-- Found rmw: 6.1.1 (/opt/ros/humble/share/rmw/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/atef/ROV 2024/colcon_ws/build/ros1_bridge/CMakeFiles/CMakeOutput.log".
