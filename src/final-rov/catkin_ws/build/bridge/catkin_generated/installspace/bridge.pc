@@ -1,0 +1,8 @@
+prefix=/home/atef/ROV 2024/catkin_ws/install
+
+Name: bridge
+Description: Description of bridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

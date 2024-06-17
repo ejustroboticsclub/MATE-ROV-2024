@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+[0.039s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.039s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.039s]   contain a literal, direct call to the project() command.  Add a line of
+[0.039s]   code such as
+[0.040s] 
+[0.040s]     project(ProjectName)
+[0.040s] 
+[0.040s]   near the top of the file, but after cmake_minimum_required().
+[0.040s] 
+[0.040s]   CMake is pretending there is a "project(Project)" command on the first
+[0.040s]   line.
+[0.040s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.040s] [0m
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.223s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.416s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.417s] -- Configuring done
+[0.418s] -- Generating done
+[0.418s] -- Build files have been written to: /home/atef/ROV 2024/build/package_example1
+[0.423s] Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+[0.425s] Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16
+[0.467s] Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16

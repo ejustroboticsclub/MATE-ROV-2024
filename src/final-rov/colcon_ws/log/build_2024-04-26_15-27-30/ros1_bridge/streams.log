@@ -1,0 +1,45 @@
+[0.015s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/colcon_ws/install/ros1_bridge
+[0.027s] -- Found rmw: 6.1.1 (/opt/ros/humble/share/rmw/cmake)
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.165s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.177s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.179s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.254s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.255s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.493s] -- Checking for module 'roscpp'
+[0.495s] --   No package 'roscpp' found
+[0.496s] [33mCMake Warning at CMakeLists.txt:36 (message):
+[0.496s]   Failed to find ROS 1 roscpp, skipping...
+[0.496s] 
+[0.496s] [0m
+[0.589s] -- Configuring done
+[0.593s] -- Generating done
+[0.595s] -- Build files have been written to: /home/atef/ROV 2024/colcon_ws/build/ros1_bridge
+[0.601s] Invoked command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/colcon_ws/install/ros1_bridge
+[0.603s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/colcon_ws/build/ros1_bridge -- -j16 -l16
+[0.641s] Invoked command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/colcon_ws/build/ros1_bridge -- -j16 -l16
+[0.674s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/atef/ROV 2024/colcon_ws/build/ros1_bridge
+[0.680s] -- Install configuration: ""
+[0.680s] -- Execute custom install script
+[0.680s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+[0.680s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+[0.680s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+[0.680s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+[0.680s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+[0.681s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+[0.681s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+[0.681s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+[0.682s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+[0.682s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+[0.682s] -- Symlinking: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.dsv
+[0.689s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+[0.689s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+[0.690s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+[0.690s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+[0.690s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+[0.690s] -- Up-to-date symlink: /home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.xml
+[0.692s] Invoked command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --install /home/atef/ROV 2024/colcon_ws/build/ros1_bridge

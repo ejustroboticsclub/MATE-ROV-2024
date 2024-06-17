@@ -1,0 +1,202 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ead71f554b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ead7204e080>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ead7204e080>>)
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atef/ROV 2024/colcon_ws'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros1_bridge' with type 'ros.ament_cmake' and name 'ros1_bridge'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rov_24) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rov_24' with type 'ros.ament_python' and name 'rov_24'
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/atef/ROV 2024/colcon_ws/install
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'ros1_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge', 'merge_install': False, 'path': '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'rov_24' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'rov_24' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atef/ROV 2024/colcon_ws/build/rov_24', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atef/ROV 2024/colcon_ws/install/rov_24', 'merge_install': False, 'path': '/home/atef/ROV 2024/colcon_ws/src/rov_24', 'symlink_install': True, 'test_result_base': None}
+[0.205s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge' with build type 'ament_cmake'
+[0.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge'
+[0.207s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.209s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/atef/ROV 2024/colcon_ws/src/rov_24' with build type 'ament_python'
+[0.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_24', 'ament_prefix_path')
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/ament_prefix_path.ps1'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/ament_prefix_path.dsv'
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/ament_prefix_path.sh'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/atef/ROV 2024/colcon_ws/build/ros1_bridge -- -j16 -l16
+[0.370s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/atef/ROV 2024/colcon_ws/src/rov_24'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/atef/ROV 2024/colcon_ws/build/ros1_bridge -- -j16 -l16
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/atef/ROV 2024/colcon_ws/build/ros1_bridge
+[0.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/atef/ROV 2024/colcon_ws/build/ros1_bridge
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge' for CMake module files
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge' for CMake config files
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/bin'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/lib/python3.10/site-packages'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.bash'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[0.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[0.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge' for CMake module files
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge' for CMake config files
+[0.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/bin'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/lib/python3.10/site-packages'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/bin'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.bash'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[0.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/ROV 2024/colcon_ws/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/share/ament_index/resource_index/packages/rov_24
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.xml
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/config
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch/launch_file.launch.py
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24/bridge
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24/gui
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24/joystick
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24/motion_control
+[0.569s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24/movement_feedback
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atef/ROV 2024/colcon_ws/build/rov_24': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build --no-deps symlink_data --force
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_24', 'pythonpath_develop')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/build/rov_24/share/rov_24/hook/pythonpath_develop.ps1'
+[0.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atef/ROV 2024/colcon_ws/build/rov_24' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build --no-deps symlink_data --force
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/colcon_ws/build/rov_24/share/rov_24/hook/pythonpath_develop.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/build/rov_24/share/rov_24/hook/pythonpath_develop.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24' for CMake config files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24/lib'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/pkgconfig/rov_24.pc'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages'
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('rov_24', 'pythonpath')
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/pythonpath.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/pythonpath.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/hook/pythonpath.sh'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/atef/ROV 2024/colcon_ws/install/rov_24/bin'
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rov_24)
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.bash'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/package.zsh'
+[0.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atef/ROV 2024/colcon_ws/install/rov_24/share/colcon-core/packages/rov_24)
+[0.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.841s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.844s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.850s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/colcon_ws/install/local_setup.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/ROV 2024/colcon_ws/install/_local_setup_util_ps1.py'
+[0.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/colcon_ws/install/setup.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/colcon_ws/install/local_setup.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atef/ROV 2024/colcon_ws/install/_local_setup_util_sh.py'
+[0.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/colcon_ws/install/setup.sh'
+[0.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/colcon_ws/install/local_setup.bash'
+[0.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/colcon_ws/install/setup.bash'
+[0.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atef/ROV 2024/colcon_ws/install/local_setup.zsh'
+[0.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atef/ROV 2024/colcon_ws/install/setup.zsh'

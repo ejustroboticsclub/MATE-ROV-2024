@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/colcon_ws/install/ros1_bridge
+[0.022s] -- Found rmw: 6.1.1 (/opt/ros/humble/share/rmw/cmake)
+[0.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.126s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.209s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] -- Checking for module 'roscpp'
+[0.398s] --   No package 'roscpp' found
+[0.398s] [33mCMake Warning at CMakeLists.txt:36 (message):
+[0.398s]   Failed to find ROS 1 roscpp, skipping...
+[0.398s] 
+[0.398s] [0m
+[0.455s] -- Configuring done
+[0.458s] -- Generating done
+[0.458s] -- Build files have been written to: /home/atef/ROV 2024/colcon_ws/build/ros1_bridge

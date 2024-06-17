@@ -1,0 +1,8 @@
+[console_scripts]
+auto = rov_24.Automatic_control:main
+bridge = rov_24.bridge:main
+gui = rov_24.copilot:main
+joystick = rov_24.joystick:main
+motion_control = rov_24.motion_control:main
+movement_feedback = rov_24.movement_feedback:main
+

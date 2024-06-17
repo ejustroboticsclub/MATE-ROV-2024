@@ -1,0 +1,56 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov-24.egg-link (link to .)
+running egg_info
+writing ../../build/rov_24/rov_24.egg-info/PKG-INFO
+writing dependency_links to ../../build/rov_24/rov_24.egg-info/dependency_links.txt
+writing entry points to ../../build/rov_24/rov_24.egg-info/entry_points.txt
+writing requirements to ../../build/rov_24/rov_24.egg-info/requires.txt
+writing top-level names to ../../build/rov_24/rov_24.egg-info/top_level.txt
+reading manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+writing manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rov_24/motion_control.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+copying rov_24/pilot_interface.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+copying rov_24/bridge.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+copying rov_24/copilot_interface.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+copying rov_24/movement_feedback.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+copying rov_24/joystick.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+running install
+running install_lib
+creating /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/__init__.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/motion_gripper.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/motion_control.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/bridge1.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/pilot_interface.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/bridge.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/stabilization.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/copilot_interface.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/movement_feedback.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/joystick.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/motion_gripper.py to motion_gripper.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/motion_control.py to motion_control.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/bridge1.py to bridge1.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/pilot_interface.py to pilot_interface.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/bridge.py to bridge.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/stabilization.py to stabilization.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/copilot_interface.py to copilot_interface.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/movement_feedback.py to movement_feedback.cpython-310.pyc
+byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/joystick.py to joystick.cpython-310.pyc
+running install_data
+copying resource/rov_24 -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/ament_index/resource_index/packages
+copying package.xml -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24
+copying launch/launch_file.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch
+running install_egg_info
+Copying ../../build/rov_24/rov_24.egg-info to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing gui script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+writing list of installed files to '/home/atef/ROV 2024/colcon_ws/build/rov_24/install.log'

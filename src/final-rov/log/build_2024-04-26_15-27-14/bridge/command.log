@@ -1,0 +1,2 @@
+Invoking command in '/home/atef/ROV 2024/build/bridge': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/catkin_ws/src/bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/bridge
+Invoked command in '/home/atef/ROV 2024/build/bridge' returned '1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/catkin_ws/src/bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/bridge

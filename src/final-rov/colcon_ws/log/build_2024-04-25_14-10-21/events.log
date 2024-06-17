@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000293] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict()}
+[0.000314] (rov_24) JobQueued: {'identifier': 'rov_24', 'dependencies': OrderedDict()}
+[0.000324] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.005058] (rov_24) JobStarted: {'identifier': 'rov_24'}
+[0.008699] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'cmake'}
+[0.008879] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/atef/ROV 2024/colcon_ws/src/ros1_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/colcon_ws/install/ros1_bridge'], 'cwd': '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'atef'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atef'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/atef/ROV 2024/colcon_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '1910'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15675'), ('COLCON_PREFIX_PATH', '/home/atef/ROV 2024/colcon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'atef'), ('JOURNAL_STREAM', '8:42066'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atef'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/atef/anaconda3/bin:/home/atef/anaconda3/condabin:/home/atef/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/atef:@/tmp/.ICE-unix/2335,unix/atef:/tmp/.ICE-unix/2335'), ('INVOCATION_ID', '204c0475e1e74329aed9083d0fe0bf28'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/atef/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0dd34d55-7e45-4490-8d13-603025cd39b7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/atef/ROV 2024/colcon_ws/build/ros1_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/atef/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/atef/ROV 2024/colcon_ws/build/rov_24:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('CONDA_PREFIX', '/home/atef/anaconda3'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble')]), 'shell': False}
+[0.078154] (ros1_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099967] (-) TimerEvent: {}
+[0.128371] (ros1_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.134946] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.177232] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181785] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.182008] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182528] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.184897] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200137] (-) TimerEvent: {}
+[0.230704] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.235415] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.235500] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.235642] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.237582] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw: 6.1.1 (/opt/ros/humble/share/rmw/cmake)\n'}
+[0.300297] (-) TimerEvent: {}
+[0.361200] (rov_24) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/atef/ROV 2024/colcon_ws/build/rov_24/build', '--no-deps', 'symlink_data'], 'cwd': '/home/atef/ROV 2024/colcon_ws/build/rov_24', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'atef', 'LC_TIME': 'en_GB.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/atef', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/atef/ROV 2024/colcon_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_GB.UTF-8', 'MANAGERPID': '1910', 'SYSTEMD_EXEC_PID': '2630', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '15675', 'COLCON_PREFIX_PATH': '/home/atef/ROV 2024/colcon_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'atef', 'JOURNAL_STREAM': '8:42066', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'atef', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/atef/anaconda3/bin:/home/atef/anaconda3/condabin:/home/atef/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/atef:@/tmp/.ICE-unix/2335,unix/atef:/tmp/.ICE-unix/2335', 'INVOCATION_ID': '204c0475e1e74329aed9083d0fe0bf28', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/atef/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:0dd34d55-7e45-4490-8d13-603025cd39b7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/atef/ROV 2024/colcon_ws/build/rov_24', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/atef/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:/home/atef/ROV 2024/colcon_ws/build/rov_24:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'CONDA_PREFIX': '/home/atef/anaconda3', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.400431] (-) TimerEvent: {}
+[0.453578] (ros1_bridge) StdoutLine: {'line': b'-- Found Python3: /home/atef/anaconda3/bin/python3 (found version "3.11.5") found components: Interpreter \n'}
+[0.498125] (ros1_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500491] (-) TimerEvent: {}
+[0.515298] (rov_24) StdoutLine: {'line': b'running develop\n'}
+[0.515548] (rov_24) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.515601] (rov_24) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.533932] (ros1_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.553589] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.556936] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.563456] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570370] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.584023] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600646] (-) TimerEvent: {}
+[0.611497] (rov_24) StdoutLine: {'line': b'running egg_info\n'}
+[0.611586] (rov_24) StdoutLine: {'line': b'writing rov_24.egg-info/PKG-INFO\n'}
+[0.611754] (rov_24) StdoutLine: {'line': b'writing dependency_links to rov_24.egg-info/dependency_links.txt\n'}
+[0.611844] (rov_24) StdoutLine: {'line': b'writing entry points to rov_24.egg-info/entry_points.txt\n'}
+[0.611895] (rov_24) StdoutLine: {'line': b'writing requirements to rov_24.egg-info/requires.txt\n'}
+[0.611934] (rov_24) StdoutLine: {'line': b'writing top-level names to rov_24.egg-info/top_level.txt\n'}
+[0.613146] (rov_24) StdoutLine: {'line': b"reading manifest file 'rov_24.egg-info/SOURCES.txt'\n"}
+[0.613709] (rov_24) StdoutLine: {'line': b"writing manifest file 'rov_24.egg-info/SOURCES.txt'\n"}
+[0.614471] (rov_24) StdoutLine: {'line': b'running build_ext\n'}
+[0.614658] (rov_24) StdoutLine: {'line': b'Creating /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov-24.egg-link (link to .)\n'}
+[0.615149] (rov_24) StdoutLine: {'line': b'Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24\n'}
+[0.615235] (rov_24) StdoutLine: {'line': b'Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24\n'}
+[0.615280] (rov_24) StdoutLine: {'line': b'Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24\n'}
+[0.615476] (rov_24) StdoutLine: {'line': b'\n'}
+[0.615541] (rov_24) StdoutLine: {'line': b'Installed /home/atef/ROV 2024/colcon_ws/build/rov_24\n'}
+[0.615580] (rov_24) StdoutLine: {'line': b'running symlink_data\n'}
+[0.630472] (rov_24) CommandEnded: {'returncode': 0}
+[0.632815] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.635069] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.639745] (rov_24) JobEnded: {'identifier': 'rov_24', 'rc': 0}
+[0.698815] (ros1_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700726] (-) TimerEvent: {}
+[0.716276] (ros1_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.745046] (ros1_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.753223] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800106] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.800272] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800804] (-) TimerEvent: {}
+[0.858611] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.859251] (ros1_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900945] (-) TimerEvent: {}
+[0.968167] (ros1_bridge) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.970964] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp'\n"}
+[0.972584] (ros1_bridge) StdoutLine: {'line': b"--   No package 'roscpp' found\n"}
+[0.972760] (ros1_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:36 (message):\n'}
+[0.972831] (ros1_bridge) StderrLine: {'line': b'  Failed to find ROS 1 roscpp, skipping...\n'}
+[0.972869] (ros1_bridge) StderrLine: {'line': b'\n'}
+[0.972900] (ros1_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.987167] (ros1_bridge) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.987234] (ros1_bridge) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[0.987272] (ros1_bridge) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[0.987305] (ros1_bridge) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[0.989143] (ros1_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.989211] (ros1_bridge) StderrLine: {'line': b'  execute_process(/home/atef/anaconda3/bin/python3\n'}
+[0.989251] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.989395] (ros1_bridge) StderrLine: {'line': b'  /home/atef/ROV 2024/colcon_ws/src/ros1_bridge/package.xml /home/atef/ROV\n'}
+[0.989440] (ros1_bridge) StderrLine: {'line': b'  2024/colcon_ws/build/ros1_bridge/ament_cmake_core/package.cmake) returned\n'}
+[0.989473] (ros1_bridge) StderrLine: {'line': b'  error code 1\n'}
+[0.989505] (ros1_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.989535] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.989566] (ros1_bridge) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.989596] (ros1_bridge) StderrLine: {'line': b'  CMakeLists.txt:39 (ament_package)\n'}
+[0.989626] (ros1_bridge) StderrLine: {'line': b'\n'}
+[0.989655] (ros1_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.989685] (ros1_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.989718] (ros1_bridge) StdoutLine: {'line': b'See also "/home/atef/ROV 2024/colcon_ws/build/ros1_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[0.994881] (ros1_bridge) CommandEnded: {'returncode': 1}
+[1.001038] (-) TimerEvent: {}
+[1.004803] (ros1_bridge) JobEnded: {'identifier': 'ros1_bridge', 'rc': 1}
+[1.015576] (-) EventReactorShutdown: {}

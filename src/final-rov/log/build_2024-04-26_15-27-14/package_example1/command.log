@@ -1,0 +1,4 @@
+Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example1 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example1
+Invoking command in '/home/atef/ROV 2024/build/package_example1': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16
+Invoked command in '/home/atef/ROV 2024/build/package_example1' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example1 -- -j16 -l16

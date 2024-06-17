@@ -1,0 +1,1 @@
+Invoking command in '/home/atef/ROV 2024/build/ros1_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atef/ROV 2024/colcon_ws/install/rov_24:/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/colcon_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/ros1_bridge

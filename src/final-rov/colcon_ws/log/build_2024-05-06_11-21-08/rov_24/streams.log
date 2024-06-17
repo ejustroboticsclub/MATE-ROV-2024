@@ -1,0 +1,74 @@
+[0.354s] Invoking command in '/home/atef/ROV 2024/colcon_ws/build/rov_24': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build
+[0.507s] running develop
+[0.507s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.507s]   warnings.warn(
+[0.608s] Removing /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov-24.egg-link (link to .)
+[0.622s] Invoked command in '/home/atef/ROV 2024/colcon_ws/build/rov_24' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/atef/ROV 2024/colcon_ws/build/rov_24/build
+[0.623s] Invoking command in '/home/atef/ROV 2024/colcon_ws/src/rov_24': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_24 build --build-base /home/atef/ROV 2024/colcon_ws/build/rov_24/build install --record /home/atef/ROV 2024/colcon_ws/build/rov_24/install.log --single-version-externally-managed install_data --force
+[0.760s] running egg_info
+[0.760s] writing ../../build/rov_24/rov_24.egg-info/PKG-INFO
+[0.761s] writing dependency_links to ../../build/rov_24/rov_24.egg-info/dependency_links.txt
+[0.761s] writing entry points to ../../build/rov_24/rov_24.egg-info/entry_points.txt
+[0.761s] writing requirements to ../../build/rov_24/rov_24.egg-info/requires.txt
+[0.761s] writing top-level names to ../../build/rov_24/rov_24.egg-info/top_level.txt
+[0.762s] reading manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+[0.763s] writing manifest file '../../build/rov_24/rov_24.egg-info/SOURCES.txt'
+[0.763s] running build
+[0.763s] running build_py
+[0.763s] copying rov_24/Detection.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.763s] copying rov_24/Autonomous_task_main.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.769s] copying rov_24/test.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.769s] copying rov_24/pilot2.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.769s] copying rov_24/copilot.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.769s] copying rov_24/Automatic_control.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.770s] copying rov_24/movement_feedback.py -> /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24
+[0.770s] running install
+[0.770s] running install_lib
+[0.770s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/Detection.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.770s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/Autonomous_task_main.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.770s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/__init__.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.770s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/test.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.770s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/motion_gripper.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/motion_control.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/pilot2.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/main.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/pilot.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/bridge1.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/copilot.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/Automatic_control.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/bridge.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/stabilization.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/movement_feedback.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.771s] copying /home/atef/ROV 2024/colcon_ws/build/rov_24/build/lib/rov_24/joystick.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24
+[0.772s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/Detection.py to Detection.cpython-310.pyc
+[0.772s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/Autonomous_task_main.py to Autonomous_task_main.cpython-310.pyc
+[0.773s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/__init__.py to __init__.cpython-310.pyc
+[0.773s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/test.py to test.cpython-310.pyc
+[0.773s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/motion_gripper.py to motion_gripper.cpython-310.pyc
+[0.773s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/motion_control.py to motion_control.cpython-310.pyc
+[0.774s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/pilot2.py to pilot2.cpython-310.pyc
+[0.774s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/main.py to main.cpython-310.pyc
+[0.774s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/pilot.py to pilot.cpython-310.pyc
+[0.774s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/bridge1.py to bridge1.cpython-310.pyc
+[0.775s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/copilot.py to copilot.cpython-310.pyc
+[0.777s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/Automatic_control.py to Automatic_control.cpython-310.pyc
+[0.778s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/bridge.py to bridge.cpython-310.pyc
+[0.778s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/stabilization.py to stabilization.cpython-310.pyc
+[0.778s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/movement_feedback.py to movement_feedback.cpython-310.pyc
+[0.779s] byte-compiling /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24/joystick.py to joystick.cpython-310.pyc
+[0.780s] running install_data
+[0.780s] copying resource/rov_24 -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/ament_index/resource_index/packages
+[0.780s] copying package.xml -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24
+[0.780s] copying launch/launch_file.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch
+[0.780s] copying launch/automatic.launch.py -> /home/atef/ROV 2024/colcon_ws/install/rov_24/share/rov_24/launch
+[0.780s] running install_egg_info
+[0.781s] Copying ../../build/rov_24/rov_24.egg-info to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages/rov_24-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.793s] Installing auto script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.793s] Installing bridge script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.793s] Installing gui script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.793s] Installing joystick script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.793s] Installing motion_control script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.794s] Installing movement_feedback script to /home/atef/ROV 2024/colcon_ws/install/rov_24/lib/rov_24
+[0.794s] writing list of installed files to '/home/atef/ROV 2024/colcon_ws/build/rov_24/install.log'
+[0.807s] Invoked command in '/home/atef/ROV 2024/colcon_ws/src/rov_24' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/atef/ROV 2024/colcon_ws/build/rov_24/prefix_override:/home/atef/ROV 2024/colcon_ws/install/rov_24/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rov_24 build --build-base /home/atef/ROV 2024/colcon_ws/build/rov_24/build install --record /home/atef/ROV 2024/colcon_ws/build/rov_24/install.log --single-version-externally-managed install_data --force

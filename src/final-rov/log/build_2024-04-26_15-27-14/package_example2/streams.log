@@ -1,0 +1,31 @@
+[0.024s] Invoking command in '/home/atef/ROV 2024/build/package_example2': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example2
+[0.035s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.035s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.035s]   contain a literal, direct call to the project() command.  Add a line of
+[0.035s]   code such as
+[0.035s] 
+[0.035s]     project(ProjectName)
+[0.035s] 
+[0.035s]   near the top of the file, but after cmake_minimum_required().
+[0.036s] 
+[0.036s]   CMake is pretending there is a "project(Project)" command on the first
+[0.036s]   line.
+[0.036s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.036s] [0m
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.443s] -- Configuring done
+[0.444s] -- Generating done
+[0.445s] -- Build files have been written to: /home/atef/ROV 2024/build/package_example2
+[0.451s] Invoked command in '/home/atef/ROV 2024/build/package_example2' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake /home/atef/ROV 2024/MATE-ROV-2024/src/control/package_example2 -DCMAKE_INSTALL_PREFIX=/home/atef/ROV 2024/install/package_example2
+[0.452s] Invoking command in '/home/atef/ROV 2024/build/package_example2': CONDA_PROMPT_MODIFIER=(ros2_env) /usr/bin/cmake --build /home/atef/ROV 2024/build/package_example2 -- -j16 -l16
